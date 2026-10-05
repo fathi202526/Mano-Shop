@@ -1,10 +1,10 @@
-name: app
-description: A professional task manager built with Flutter.
-publish_to: 'none'
+name: mano
+description: قالب متجر إلكتروني عام بمنتجات وسلة ومفضلة وتجربة شراء محلية.
+publish_to: none
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=2.17.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -13,3 +13,5 @@ dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/app_icon.png
